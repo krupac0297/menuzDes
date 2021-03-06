@@ -1,0 +1,228 @@
+.sidenav {
+  &--hover:hover:not(.sidenav__link--active) {
+      background-color: var(--color-background-tertiary);
+  }
+
+  &__list--bottom {
+      // position: absolute;
+      // bottom: 0;
+      // left: 0;
+      // right: 0;
+      // margin-bottom: 0;
+      box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.1);
+      // margin-top: auto;
+  }
+
+  &__link {
+      padding: 1rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      outline: none;
+      &:hover &__img--hover-back{
+          transform: translateX(-.3rem);
+          transition: transform .2s;
+      }
+
+      &--active {
+          font-weight: bold;
+          background-color: var(--color-background-secondary);
+          text-decoration: none;
+      }
+
+      &__img {
+          width: 1.5rem;
+          height: 1.5rem;
+          margin-right: 1rem;
+      }
+  }
+}
+.sidebar {
+  height: 100%;
+  max-height: 100%;
+  z-index: 2;
+  background: #fff;
+  box-shadow: 0 16px 38px -35px rgba(0,0,0,.1), 0 4px 25px -5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+}
+ .sidebar-wrapper {
+    margin-left: 0;
+}
+.sidebar-heading {
+  padding:10px;
+  background:#353FA8;
+  color:#fff;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.mobile-response { 
+  background:#fff;
+  color:#353FA8;
+  z-index: 2;
+  width: 320px;
+  height: 100%;
+  -webkit-transform: translate3d(0%, 0, 0);
+  -ms-transform: translate3d(0%, 0, 0);
+  -o-transform: translate3d(0%, 0, 0);
+  transform: translate3d(0%, 0, 0);
+}
+.sidebar-shadow {
+  width: 260px;
+  box-shadow: 0 16px 38px -35px rgba(0,0,0,.1), 0 4px 25px -5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2); 
+  height: 100%;
+}
+.sidebar-shadow {
+  position: absolute;
+  bottom:0;
+  left:0;
+  right:0
+}
+.bottom-logout{
+  position: absolute;
+  bottom:0;
+  left:0;
+  right:0
+
+}
+.sidebar-heading {
+  padding:10px;
+  background:#353FA8;
+  color:#fff;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.lamb{
+  position: absolute;
+width: 201px;
+left: 16px;
+//top: 28.57%;
+//bottom: 28.57%;
+
+/* P1 - Bold */
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+color: #1A1A1A;
+}
+.tit1{
+ //margin-left:390px;
+ //margin-top:48px;
+ width:600px;
+ height:50px;
+font-weight: bold;
+font-size: 30px;
+//line-height: 40px;
+}
+.tit2{
+  font-weight: normal;
+  font-size: 16px;
+ // line-height: 24px;
+}
+
+.row{
+ margin-left:360px;
+ margin-top:30px;
+}
+.card{
+  width:365px;
+  height:468px;
+  margin-left:24px;
+  margin-bottom:20px;
+  border:none;
+  background: #FFFFFF;     
+
+ 
+}
+.card-body{
+  right:50px;
+  padding:10%10%;
+background: #FFFFFF;
+box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  
+}
+.p2{
+  //position:absolute;
+ //  margin-top:1px;
+ margin-left:100px;
+ position: static;
+ width: 70px;
+ height: 20px;
+ left: calc(50% - 47px/2);
+ top: calc(50% - 18px/2);
+ font-weight: bold;
+ font-size: 14px;
+ color: #1A1A1A;
+ text-align:center;
+ }
+ .img1{
+   position: static;
+  
+   //margin-left:100px;
+   left: calc(50% - 40px/2);
+   top: calc(50% - 20px/2); 
+   width:310px;
+   height:8px;
+   vertical-align:top;
+ }
+ .img2{
+   //margin-top:15px;
+ //margin-left:15px;
+ width: 80px;
+ height: 80px;
+ left: calc(50% - 20px/2);
+ top: calc(50% - 23px/2);
+ border-radius: 40px;
+ }
+ .btn btn-success{
+     //margin-left:50px;
+     //position: absolute;
+     position: static;
+//width: 120px;
+//height: 35px;
+color:white;
+padding:16px;
+//margin-left:100px;
+//left: calc(50% - 77px/2 + 16px);
+top: calc(50% - 20px/2);
+border: none;
+font-size: 16px;
+//margin:8px,0px;
+ }
+ .t1{
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 14px;
+  line-height: 14px;
+  width:310px;
+  
+  margin-top:25px;
+  
+  //padding-right:20px;
+  //padding-left:15px;
+  
+  
+  }
+  .img3{
+
+     
+      margin-right:8px;
+      // left: 12.5%;
+      // right: 12.5%;
+      // top: 4.17%;
+      // bottom: 8.33%;
+      
+      }
+  td{
+    line-height: 15px;
+    margin-top: 15px;
+  }
+  //hr{
+   //width:250px;
+  //}

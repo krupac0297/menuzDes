@@ -1,0 +1,174 @@
+.navbar{
+    background-color:#353FA8 ;
+    height:56px;
+}
+.restaurant-title{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    margin:96px 0 40px 0;
+}
+.restaurant-details{
+    .label{
+        margin:0 0 4px 0;
+    }
+    .form-control{
+        margin:0 0 20px 0;
+
+    }
+    .restaurant-title1{
+        margin:80px 0 48px 0;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        font-size: 16px;
+line-height: 24px;
+
+    }
+    .restaurant-title2{
+        margin:0px 0 88px 0;
+        font-size: 16px;
+        line-height: 24px;
+        color: #353FA8;
+
+    }
+    // .circle{
+    //     border-radius: 50%;
+    //     border:2px solid blue;
+    //     width:200px;
+    //     height:200px;
+    // }
+    .circle{
+        position:relative;
+       // width:50%;
+       width:200px;
+       height:200px;
+       margin:0 0 24px 0;
+        padding-bottom:50%;
+        background:#FAFAFA;
+        border-radius:50%;
+        border:2px dashed lightgrey;
+      }
+      .circle-text{
+          top:130px;
+          left:30px;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 20px;
+          color: #353FA8;
+      }
+      .circle1{
+        position:relative;
+       // width:50%;
+       width:200px;
+       height:200px;
+       margin:0 0 24px 0;
+        padding-bottom:50%;
+        background:#FAFAFA;
+        border:2px dashed lightgrey;
+      }
+      .restaurant-title3{
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        margin:0 0 24px 0;
+
+      }
+      .restaurant-title4{
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 20px;
+        margin:0 0 24px 0;
+
+      }
+      .restaurant-title6{
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+
+      }
+      .restaurant-title5{
+        margin:0 0 8px 0;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+
+      }
+      .circle .icon{
+        position: relative;;
+      
+      }
+      .circle .icon{
+        position:absolute;
+        // right:20px;
+        top:90px;
+        left:80px;
+        margin:0 0 15px 0; 
+      }
+      .circle1 .icon1{
+        position: relative;;
+      
+      }
+      .circle1 .icon1{
+        position:absolute;
+        // right:20px;
+        top:90px;
+        left:80px;
+        margin:0 0 15px 0; 
+      }
+      .restaurant-title2 .icon2{
+        position: relative;;
+      
+      }
+      .restaurant-title2 .icon2{
+        position:absolute;
+        // right:20px;
+        top:0px;
+        left:400px;
+        margin:0 0 15px 0; 
+      }
+      .table td{
+          border-top:none;
+         
+      }
+      .checkbox{
+          //right:10px;
+          width:16px;
+          height:16px;
+      }
+      .table-text{
+          margin:0 0 0 10px;
+          //padding-left: 10px;
+          font-size: 16px;
+          line-height: 24px;
+
+      }
+      .btn2{
+         // padding-right:16px;
+         margin: 0 16px 0 0;
+          width:71px;
+          height:40px;
+
+      }
+      .btn3{
+        //right:10px;
+        width:104px;
+        height:40px;
+
+    }
+    .btn4{
+        // padding-right:16px;
+        margin:140px 16px 0 0px;
+        //left:100px;
+         width:89px;
+         height:40px;
+
+     }
+     .btn5{
+       //right:10px;
+       width:94px;
+       height:40px;
+
+   }
+
+}

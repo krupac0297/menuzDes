@@ -1,0 +1,20 @@
+<div style="display: flex; flex-direction: column; height: 100vh;">
+    <div class="sidebar-heading hide-div"style="outline: none;cursor: pointer;height:56px;">
+      <img [routerLink]="['/dasboard']"  title="Dashboard" style="widows: 169px;height:32px;" src="assets/svg/Logo.svg"> 
+      <img class="mt-1" [src]= "layoutService.sideMenuVisible ? close_image : menu_image" (click)="layoutService.toggleSideBar()" style="float: right;">
+   </div>
+   <div id="wrapper">
+      <div *ngIf="layoutService.sideMenuVisible"
+         [ngStyle]="{'position':layoutService.isMobile ? 'absolute' : 'relative' }" class="sidebar"
+         id="sidebar-wrapper">
+         <app-side-nav-bar></app-side-nav-bar>
+      </div>
+      <div style="flex-grow: 1; overflow-y: auto;">
+         <div class="container-fluid">
+            <div class="main-body">
+               <router-outlet></router-outlet>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>

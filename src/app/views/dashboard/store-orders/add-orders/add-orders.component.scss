@@ -1,0 +1,123 @@
+
+  .lamb{
+    position: absolute;
+  width: 201px;
+  left: 16px;
+  //top: 28.57%;
+  //bottom: 28.57%;
+  
+  /* P1 - Bold */
+  
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #1A1A1A;
+  }
+  .tit1{
+   margin-left:380px;
+   margin-top:48px;
+   width:600px;
+   height:50px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  }
+  
+  .row{
+   margin-left:360px;
+   margin-top:30px;
+  }
+  .card{
+    width:365px;
+    height:468px;
+    //margin-left:24px;
+    margin-bottom:20px;
+    border:none;
+    background: #FFFFFF;     
+  
+   
+  }
+  .card-body{
+    right:50px;
+    padding:10%10%;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    
+  }
+  .p2{
+    //position:absolute;
+   //  margin-top:1px;
+   margin-left:100px;
+   position: static;
+   width: 70px;
+   height: 20px;
+   left: calc(50% - 47px/2);
+   top: calc(50% - 18px/2);
+   font-weight: bold;
+   font-size: 14px;
+   color: #1A1A1A;
+   text-align:center;
+   }
+   .img1{
+     position: static;
+    
+     //margin-left:100px;
+     left: calc(50% - 40px/2);
+     top: calc(50% - 20px/2); 
+     width:310px;
+     height:8px;
+     vertical-align:top;
+   }
+   .img2{
+     //margin-top:15px;
+   //margin-left:15px;
+   width: 80px;
+   height: 80px;
+   left: calc(50% - 20px/2);
+   top: calc(50% - 23px/2);
+   border-radius: 40px;
+   }
+   .btn btn-success{
+       //margin-left:50px;
+       //position: absolute;
+       position: static;
+  //width: 120px;
+  //height: 35px;
+  color:white;
+  padding:16px;
+  //margin-left:100px;
+  //left: calc(50% - 77px/2 + 16px);
+  top: calc(50% - 20px/2);
+  border: none;
+  font-size: 16px;
+  //margin:8px,0px;
+   }
+   .t1{
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 14px;
+    line-height: 14px;
+    width:300px;
+    
+    margin-top:25px;
+    
+    //padding-right:20px;
+    //padding-left:15px;
+    
+    
+    }
+    td{
+      line-height: 20px;
+    }
+    //hr{
+     //width:250px;
+    //}
+    .carousel-item{
+      margin-left:350px;
+      margin-top:120px;
+      height:700px;
+    }
