@@ -29,6 +29,7 @@ const routes: Routes = [
   {path: 'register-password', loadChildren:() => import('./register-password/register-password.module').then(m => m.RegisterPasswordModule)},
   {path: 'register-verification', loadChildren:() => import('./register-verification/register-verification.module').then(m => m.RegisterVerificationModule)},
   {path: 'register-about-store', loadChildren:() => import('./register-about-store/register-about-store.module').then(m => m.RegisterAboutStoreModule)},
+  {path: 'register-business1', loadChildren:() => import('./register-business1/register-business1.module').then(m => m.RegisterBusiness1Module)},
   {
     path: '**',
     redirectTo: 'dashboard',

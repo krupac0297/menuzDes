@@ -1,0 +1,538 @@
+.navbar{
+    height: 56px;
+    
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    padding: 8px, 8px, 8px, 16px;
+    background-color:#353FA8 ;
+    
+    
+    }
+    .navbar-nav .nav-link{
+        color:white;
+        font-size: 16px;
+      
+    }
+    /*******head********/
+    .head1{
+        .header1{
+           
+            background-color:lightgray;
+            background-size: 100%;
+            // .b1{
+            //     background-color:yellow;
+            //     background-size: cover;
+            //     background-repeat: no-repeat;
+            //     background-attachment: fixed;
+            // }
+            .text-tl2{
+                font-weight: bold;
+                font-size: 43px;
+                line-height:55px;
+                width:600px;
+                height:180px;
+                margin:260px 0 0px 0;
+            }
+            .text-tl1{
+             font-weight: normal;
+             font-size: 16px;
+             line-height: 24px;
+             margin:-50px 0 0px 0;
+            }
+            .col-md-5{
+                margin:40px 0 40px 0px;
+                border: none;
+                background-color: white;
+                width:432px;
+                height:628px;
+            }
+            .text-tl3{
+                font-size: 24px;
+                line-height: 28px;
+                 margin:32px 0 24px 32px;
+            }
+            .form-control{
+                border: 2px solid #F2F2F2;
+                box-sizing: border-box;
+                margin: 0px 32px 16px 32px;
+                // width:368px;
+                //  height:40px
+            }
+            .form-control-fc1{
+                // width:160px;
+                //  height:40px;
+                 margin:0 0px 0 32px;
+    
+            }
+            .form-control-fc2{
+                // width:160px;
+                // height:40px;
+                margin:0px 32px 0 10px;
+    
+    
+            }
+            .lable-lastName{
+                margin:0 0 0 221px;
+    
+            }
+            .fc3{
+                width:90px;
+                height:40px;
+                margin:0px 32px 0px 32px;
+    
+            }
+            .form-control-fc4{
+                width:278px;
+                height:40px;
+                margin:0px 32px 0px 32px;
+    
+            }
+            .label{
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 20px;
+                margin:4px 0px 4px 32px;
+                  
+            }
+            
+            
+            
+            .frmtxt{
+                width: 368px;
+                height: 40px;
+                font-size: 11px;
+                font-family: DM Sans;
+                line-height: 20px;
+                margin:24px 32px 24px 32px;
+            }
+           
+            .btn1{
+                margin:0px 32px 32px 32px;
+                border:none;
+                font-size: 16px;
+                font-family: DM Sans;
+                line-height: 20px;
+                width: 368px;
+                height: 40px;
+                background: #353FA8;
+                
+            }
+            .form-group{
+                width:100%;
+            }
+     
+            .inputWithIcon input[type=text]{
+                padding-left: 40px;
+            }
+            .inputWithIcon i{
+                position: relative;
+            }
+            .inputWithIcon i{
+                position: absolute;
+                left:0;
+                top:435px;   
+                //margin:440px 0 0 0px;
+                padding:9px 47px;
+                color:#353FA8;
+            }
+            .iconi{
+                color:#353FA8;
+    
+            }
+        }
+        
+    }
+    @media only screen and (max-width:731px){
+        .header1{
+            background-size: 300%;
+        }
+    }
+   
+     /*********register buisiness********/
+ .register-bus{
+    .text1{
+        margin:96px 0 24px 0;
+        font-weight: bold;
+        font-size: 32px;
+    }
+     .register{
+         margin:0px 0px 40px -25px;
+        // width:1010px;
+        
+        .reg-business{
+            width:432px;
+            height:212px;
+            border:none;
+            margin: 0 20px 0 24px;
+            padding-right: 24px;
+        }
+        .reg-details{
+           width:368px;
+           height:72px;
+   
+        }
+       
+        .reg-info{
+           width:368px;
+           height:72px;
+           font-size: 16px;
+          line-height: 24px;
+          
+        }
+        .title1{
+            margin:32px 32px 8px 0px;
+            font-weight: bold;
+            font-size: 20px;
+           // padding:32px 32px 0px 32px;
+    
+        }
+
+     }
+     .register-step2{
+         margin:0px 0px 136px -30px;
+         width:1050px;
+       
+         .text2{
+            color: #FFBF42;
+            height:24px;
+            // margin:70px 0 0 0px;
+            line-height: 24px;   
+         }
+         .title2{
+             font-style: italic;
+             font-family: DM Sans;
+             font-weight:bold ;
+             font-size: 19px;
+             margin:20px 0 30px 0px;
+             width:380px;
+         }
+         .step2-info{
+            width:432px;
+            height:212px;
+            margin:0 0px 0 0px;
+
+         }
+         .img3{
+            width:650px;
+         
+            //margin:0 0px 0 0;
+        }
+        .s1{
+            color:grey;
+            font-size: 18px;
+            font-weight: normal;
+        }
+     }
+     .register-step3{
+         width:1100px;
+         
+        .step3-info{
+            width:430px;
+            height:300px;
+            margin:0 24px 0 0px;
+
+         }
+         .step3-details{
+            width:390px;
+            height:100px;
+            
+
+         }
+         .step3-img{
+             width:400px;
+             height:150px;
+            margin:0 0 40px 0px;
+
+         }
+         .text3{
+            font-size: 20px;
+            margin:0 0 8px 0px;
+        }
+         .title3{
+            font-size: 16px;
+            width:368px;
+            height:72px;
+
+         }
+
+     }
+     .register-step4{
+         width:1100px;
+         .step4-info{
+             width:390px;
+             height:320px;
+
+         }
+         .card1{
+            //margin:10px 0 10px -80px;
+            margin:10px 0 10px 20px;
+            width:153px;
+            height:110px;
+        
+        }
+        .img5{
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            padding: 10px;
+            background: #fff;
+            border: 4px solid #1A1A1A;
+            color: #000;
+            margin:10px 0 10px 35px;
+              //text-align: center;
+            font: 32px Arial, sans-serif;
+                
+            }
+            .text4{
+                font-size: 14px;
+                margin:0 0 0 -70px ;
+                width:300px;
+                height:24px;
+               text-align: center;
+            }
+
+     }
+     
+
+ }
+ hr {
+    border:none;
+    border-top: 4px dashed #B3B3B3;
+    color:#fff;
+    background-color:#fff;
+    height:30px;
+    width:35%;
+    position: absolute;
+    top:10px;
+    left:103px;
+    width:293px;
+    display:block;
+  }
+
+/****footer**/
+.c2{
+    width:1200px;
+    height:400px;
+    background-color: indianred;
+}
+.footer-widget-title {
+ line-height:42px;
+ margin-bottom:10px;
+ font-size:18px
+}
+.full-footer{
+    
+    // width:1350px;
+    //  height:450px;
+    width:100%;
+    background-color: #353FA8;
+
+}
+
+.top-footer p{
+    color: white;
+   
+}
+
+.bottom-footer{
+    color:white;
+    background-color: #141974;
+    width:100%;
+   
+}
+.full-footer{
+    width:100%;
+    .top-footer{
+        height:550px;
+       // margin:50px 0 0 0;
+        .footer1{
+   
+           width:450px;
+           height: 48px;
+           font-size:13px;
+           line-height: 18px;
+           letter-spacing: normal;
+           margin:22px 0px 8px 0px;
+           
+           }
+           .topfooter-img6{
+
+             width: 200px;
+             height: 96px;
+            margin:0px 0px 0px 0px;
+           
+           
+           }
+           .topfooter-img8{
+            width: 20px;
+            height: 20px;
+            margin:0px 7px 0 0;
+
+           }
+           .topfooter-img9{
+            width: 20px;
+            height: 18px;
+            margin:0px 7px 0 0;
+
+           }
+           .topfooter-img10{
+            width: 20px;
+            height: 18px;
+            margin:0px 7px 0 0;
+
+           }
+           .topfooter-img11{
+            width: 24px;
+            height: 16px;
+           
+           }
+           .footer-para1{
+            margin: 25px 40px 16px 0px;
+            width:450px;
+            
+            
+            }
+            .topfooter-img7{
+                width: 120px;
+                height: 50px;
+                margin:0px 7px 0 0;
+                
+    
+               }
+            .footer-img12{
+                width: 120px;
+                height: 50px;
+               }
+               h5{
+                width:300px;
+                color: white;
+                font-size:18px;
+                line-height: 29px;
+            }
+             a{
+                color: white;
+                font-size:14px;
+                line-height: 28px;
+            }
+            .footer-container1{
+                margin:0px 0px 20px 0px;
+            }
+            .footer-para{
+                margin:-2px 0px 20px 0px;
+
+            }
+
+    }
+
+}
+.foottxt1{
+    width:170px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.bottom-footer{
+    .foottxt2{
+        width:120px;
+    font-size: 14px;
+    line-height: 20px;
+
+    }
+
+}
+/********media-query********/
+@media only screen and (min-width:1400px) {
+    .navbar{
+        padding-left:0%;
+        // width:1100px;
+        // height:50px;
+    }
+    
+     .register-bus .text1{
+        margin-left:-140px;
+        //padding-right: 10%;
+        width:100%;
+       // float:left;
+        
+
+    }
+      .register .reg-business .reg-details{
+        margin-left: -140px;
+        width:100%;
+    }
+    .register .reg-business .reg-details .reg-info{
+        width:340px;
+        height:72px;
+
+    }
+    .register-step2  .img3{
+        margin-left: -150px;
+
+    }
+    .register-step2 .step2-info .text2{
+        margin:50px 0 0px -140px;
+
+    }
+    .register-step2 .step2-info .title2{
+        width:340px;
+        margin:20px 0 20px -140px;
+      
+    }
+    .register-step3 .step3-details .title3{
+        width:340px;
+      
+
+    }
+    .register-step3{
+        margin-left: -150px;
+        width:100%;
+
+    }
+    .register-step4{
+        margin-left: -150px;
+        width:100%;
+
+    }
+    .top-footer {
+        margin-left: -150px;
+        width:100%;
+
+    }
+    .bottom-footer {
+        margin-left: -160px;
+        width:100%;
+
+    }
+    .bottom-footer .foottxt2{
+        padding-right: 0%;
+    }
+    .header1{
+      
+        background-size: 300%;
+    }  
+    .header1 .col-md-5 .col-md-7  {
+        padding-left: 0%;
+
+    }
+}
+// @media only screen and (min-width:1200px){
+
+//   .header1{
+//       background-size: 300%;
+//   } 
+//   .register-bus {
+//     margin-left:-100px;
+//     width:100%;
+// }   
+//   .register .reg-business .reg-details{
+//     margin-left: -90px;
+//     width:100%;
+// }
+
+// .register .reg-business .reg-details .reg-info{
+//     width:254px;
+//     height:72px;
+
+// }
+// }

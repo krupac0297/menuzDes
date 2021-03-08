@@ -550,7 +550,7 @@ ul {
          }
          .img3{
             width:650px;
-            height:336px;
+          //  height:336px;
             margin:0 0px 0 0;
         }
         .s1{
@@ -631,4 +631,26 @@ ul {
      
 
  }
+ @media only screen and(min-width:1400px){
+     .reg-business .reg-details{
+      
+        margin-left: -160px;
+        padding-right: 10%;
+        width:100%;
+        float:left;
+     }
+     .text-left{
+        margin-left: -150px;   
+     }
+      
+ }
+ @media only screen and(min-width:600px){
+     
+}
+@media only screen and(min-width:600px){
+     
+}
+@media only screen and(min-width:768px){
+     
+}
 
